@@ -1,0 +1,191 @@
+/*General*/
+.form-container {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.nav.navbar-light {
+    color: mediumseagreen;
+}
+
+/*Index*/
+#add {
+    float: right;
+    margin-bottom: 2px;
+}
+.table-container {
+    display: block;
+    width: 75%;
+    margin:auto;
+    padding: 2%;
+}
+
+/*Index.php*/
+#home-body {
+    padding: 5%;
+    margin: auto;
+}
+
+#home-box {
+    width: 70%;
+    padding: 5% 5%;
+    border: 3px solid #f86e87;
+    margin: auto;
+    min-height: 650px;
+    text-align: center;
+}
+
+#home-content {
+    width: 70%;
+    min-width: 525px;
+    margin: auto;
+}
+
+#index-buttons {
+    display: inline-block;
+    width: 100%;
+    min-width: inherit;
+    text-align: center;
+}
+
+.home-buttons {
+    width: 40%;
+    margin-top: 10px;
+    height: 2.5%;
+}
+
+.circles {
+    display: inline-block;
+    text-align: center;
+}
+
+.circle {
+    width: 175px;
+    height: 175px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    margin: 10px 10px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.circle-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+span {
+    margin-top: 10px;
+}
+
+/*Client Pages Specific*/
+#profile-photo {
+    max-height: 176px;
+    max-width: 150px;
+}
+
+/*Dash Specific*/
+#dash-heading {
+    padding: 2%;
+}
+
+#buttons {
+    width: 50%;
+    margin: auto;
+    justify-items: center;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Adjust the width and height to your desired circle size */
+    height: 200px; /* Adjust the width and height to your desired circle size */
+    border-radius: 50%; /* Makes the div circular */
+    background-color: lightgreen;
+}
+
+.dash-circle-inner {
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+/*Login and Contact Form Pages*/
+.frontend-body {
+    padding: 2%;
+}
+#box {
+    width: fit-content;
+    padding: 5% 20%;
+    border: 3px solid #f86e87;
+    margin: auto;
+}
+.frontend-forms {
+    min-width: 400px;
+    width: 30%;
+    margin: auto;
+}
+#send {
+    width: 100%;
+}
+
+#pink-title {
+    color: #f86e87;
+    text-align: center;
+}
+
+/*Delete*/
+.delete-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.delete-buttons {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*View*/
+.view-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.view-buttons {
+    width: 25%;
+    justify-items: center;
+    margin: 1% 1% 0;
+}
+
+.info {
+    width: 75%;
+    padding: 5% 5%;
+    border: 3px solid #f86e87;
+    margin: auto;
+    justify-items: center;
+}
+
+.info-table {
+    margin: 3%;
+}
+
+
